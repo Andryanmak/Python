@@ -15,6 +15,17 @@ def intersection(A,B):
             i=i+1 
             j=j+1
     return(C)
+def setDifference(A,B):
+    (m,n)=(len(A),len(B))
+    C=[]
+    for i in B:
+            if i in A:
+                C=[k for k in A if k!=i]
+                A=C
+    return(C)
+
+
 a=[1,2,7,5,8]
 b=[1,2,6,7]
 print(intersection(a,b))
+print(setDifference(a,b))
