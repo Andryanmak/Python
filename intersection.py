@@ -17,4 +17,4 @@ def intersection(A,B):
     return(C)
 a=[1,2,2,2,7,2,2,2,5,8]
 b=[1,2,6,7]
-print(setDifference(a,b))
+print(intersection(a,b))
