@@ -39,3 +39,4 @@ a=[1,2,7,5,8]
 b=[1,2,6,7]
 print(intersection(a,b))
 print(setDifference(a,b))
+print(union(a,b))
