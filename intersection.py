@@ -15,6 +15,6 @@ def intersection(A,B):
             i=i+1 
             j=j+1
     return(C)
-a=[1,2,2,2,7,2,2,2,5,8]
+a=[1,2,7,5,8]
 b=[1,2,6,7]
 print(intersection(a,b))
